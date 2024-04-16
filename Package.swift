@@ -10,6 +10,6 @@ let package = Package(
         .library(name: "FSPagerView", targets: ["FSPagerView"]),
     ],
     targets: [
-        .target(name: "FSPagerView", path: "Sources", exclude: ["FSPagerViewObjcCompat.h", "FSPagerViewObjcCompat.m"]),
+        .target(name: "FSPagerView", path: "Sources", exclude: ["FSPagerViewObjcCompat.h", "FSPagerViewObjcCompat.m"], resources: [.process("PrivacyInfo.xcprivacy")]),
     ]
 )
