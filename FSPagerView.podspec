@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "FSPagerView"
-  s.version          = "0.9.0"
+  s.version          = "0.9.1"
   s.summary          = "FSPagerView is an elegant Screen Slide Library for making Banner、Product Show、Welcome/Guide Pages、Screen/ViewController Sliders."
   
   s.homepage         = "https://github.com/castbox/FSPagerView"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Privacy' do |ss|
     ss.resource_bundles = {
-      "Privacy" => 'Sources/PrivacyInfo.xcprivacy'
+      s.name => 'Sources/PrivacyInfo.xcprivacy'
     }
   end
 end
